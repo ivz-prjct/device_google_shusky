@@ -6,6 +6,9 @@
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay-lineage
 
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/app/ViaBrowser/ViaBrowser.apk
+
 # EUICC
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.mep.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.mep.xml \

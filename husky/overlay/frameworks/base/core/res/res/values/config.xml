@@ -313,4 +313,7 @@
 
     <!-- The integer index of the selected option in config_udfps_touch_detection_options -->
     <integer name="config_selected_udfps_touch_detection">5</integer>
+
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <bool name="config_supportScreenOffUdfps">true</bool>
 </resources>

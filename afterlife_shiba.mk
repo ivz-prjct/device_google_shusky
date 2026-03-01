@@ -5,7 +5,7 @@
 #
 
 # Inherit some common stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
 # Inherit device configuration
 DEVICE_CODENAME := shiba
@@ -16,7 +16,14 @@ $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8
-PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
+PRODUCT_NAME := afterlife_$(DEVICE_CODENAME)
+
+# Afterlife Flags
+AFTERLIFE_MAINTAINER := Iverz
+TARGET_PIXEL_BOOT_ANIMATION_RES := 1080
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400

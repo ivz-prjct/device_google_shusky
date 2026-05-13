@@ -21,6 +21,8 @@ vendor.display.preferred_mode=1008x2244@120
 vendor.primarydisplay.op.hs_hz=120
 vendor.primarydisplay.op.ns_hz=60
 vendor.primarydisplay.op.ns_min_dbv=1172
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=1
 
 # Fingerprint
 ro.vendor.fingerprint.ta.name=g7.app
